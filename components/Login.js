@@ -54,7 +54,7 @@ export default function Login() {
       <div className='max-w-[400px] w-full mx-auto'>
         <Button clickHandler={HandleSubmit} text={authenticating?'Sumitting':'Submit'} full/>
       </div>
-      <p className='text-center'>{isRegister?'Already have an account? ':'Don\'t have an account? '} <button onClick={() => setIsRegister(!isRegister)} className='text-indigo-600'>{isRegister?'Sign in':'Sign Up'}</button></p>
+      <p className='text-center'>{isRegister?'Already have an account? ':'Do not have an account? '} <button onClick={() => setIsRegister(!isRegister)} className='text-indigo-600'>{isRegister?'Sign in':'Sign Up'}</button></p>
     </div>
   )
 }
